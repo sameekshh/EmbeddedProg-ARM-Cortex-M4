@@ -1,4 +1,4 @@
-09:37:40 **** Build of configuration Debug for project 001HelloWorld ****
+18:12:13 **** Build of configuration Debug for project 001HelloWorld ****
 make -j8 all 
 arm-none-eabi-size  001HelloWorld.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  001HelloWorld.elf
 Finished building: default.size.stdout
  
 
-09:37:41 Build Finished. 0 errors, 0 warnings. (took 1s.192ms)
+18:12:14 Build Finished. 0 errors, 0 warnings. (took 263ms)
 
