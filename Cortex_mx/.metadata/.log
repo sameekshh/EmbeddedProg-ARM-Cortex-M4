@@ -2309,3 +2309,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-10 05:16:57.758
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-10 05:22:47.193
+!MESSAGE Indexed '003_operation_modes2' (3 sources, 0 headers) in 0.132 sec: 72 declarations; 65 references; 12 unresolved inclusions; 0 syntax errors; 35 unresolved names (20%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-10 05:23:16.834
+!MESSAGE Indexed '002HelloWorld_semihosting' (2 sources, 29 headers) in 0.295 sec: 1,196 declarations; 1,947 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-10 05:23:52.928
+!MESSAGE Indexed '001HelloWorld_semihosting' (2 sources, 29 headers) in 0.205 sec: 1,196 declarations; 1,947 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-10 05:24:53.988
+!MESSAGE Indexed '009_accesss_mode' (3 sources, 55 headers) in 0.344 sec: 2,099 declarations; 2,977 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.039%)
