@@ -1,0 +1,10 @@
+06:37:01 **** Incremental Build of configuration Debug for project 010_accesss_mode2 ****
+make -j8 all 
+arm-none-eabi-size  010_accesss_mode2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3544	    100	   1900	   5544	   15a8	010_accesss_mode2.elf
+Finished building: default.size.stdout
+ 
+
+06:37:02 Build Finished. 0 errors, 0 warnings. (took 203ms)
+

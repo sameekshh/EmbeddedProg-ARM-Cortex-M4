@@ -1,4 +1,4 @@
-05:53:44 **** Incremental Build of configuration Debug for project 009_accesss_mode ****
+06:38:04 **** Incremental Build of configuration Debug for project 009_accesss_mode ****
 make -j8 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
 arm-none-eabi-gcc -o "009_accesss_mode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\HP\Desktop\STM32_Course\Cortex_mx\009_accesss_mode\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="009_accesss_mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -7,7 +7,7 @@ Finished building target: 009_accesss_mode.elf
 arm-none-eabi-size  009_accesss_mode.elf 
 arm-none-eabi-objdump -h -S 009_accesss_mode.elf  > "009_accesss_mode.list"
    text	   data	    bss	    dec	    hex	filename
-   3544	    100	   1900	   5544	   15a8	009_accesss_mode.elf
+   3556	    100	   1900	   5556	   15b4	009_accesss_mode.elf
 Finished building: default.size.stdout
  
 Finished building: 009_accesss_mode.list
